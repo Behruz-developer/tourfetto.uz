@@ -11,10 +11,11 @@
 
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <nav class="nav">
             <div class="container">
                 <div class="menu ">      
@@ -27,11 +28,11 @@
                 </div>
                       <ul class="nav_list">
                           <label class="btnn cancel" style="color: white;"><i class="fa fa-close"></i></label>
-                          <li><a href="#home" class="lang" >Bosh Sahifa</a></li>
-                          <li><a href="#about" class="lang" key="">Biz haqimizda</a></li>
-                          <li><a href="#news" class="lang" key="">Yangiliklar</a></li>
-                          <li><a href="#tours" class="lang" key="">Ekskursiyalar</a></li>
-                          <li><a href="#contact" class="lang" key="">Kontakt</a></li>
+                          <li><a href="#home" class="lang" key="home"></a></li>
+                          <li><a href="#about" class="lang" key="about"></a></li>
+                          <li><a href="all_new_page/index.html" class="lang" key="new"></a></li>
+                          <li><a href="all_catygore_page/inedx.html" class="lang" key="tour"></a></li>
+                          <li><a href="#contact" class="lang" key="contact"></a></li>
                         <div class="language_container1">
                             <a class="lang-button  active_lang"  data-lang="ru"><img src="image/flag_ru.png" alt=""></a>
                             <a class="lang-button  "  data-lang="uz"><img src="image/flag_uz.png" alt=""></a>
@@ -72,64 +73,74 @@
             <div class="home-carousel-text">
                 <div class="text-dynamic">
                     <div class="text-dynamic-content-1 home-carousel-rotate-wrapper">
-                        <div class="text-dynamic-content home-carousel-rotate-item">Biz bilan</div>
-                        <div class="text-dynamic-content home-carousel-rotate-item">Biz bilan</div>
-                        <div class="text-dynamic-content home-carousel-rotate-item">Biz bilan</div>
+                        <div class="text-dynamic-content home-carousel-rotate-item lang" key="img_slider1"></div>
+                        <div class="text-dynamic-content home-carousel-rotate-item lang" key="img_slider1"></div>
+                        <div class="text-dynamic-content home-carousel-rotate-item lang" key="img_slider1"></div>
                     </div>
                     <div class="text-dynamic-content-2 home-carousel-rotate-wrapper" data-delay="200">
-                        <div class="text-dynamic-content home-carousel-rotate-item">maroqli sayohat</div>
-                        <div class="text-dynamic-content home-carousel-rotate-item">maroqli sayohat</div>
-                        <div class="text-dynamic-content home-carousel-rotate-item">maroqli sayohat</div>
+                        <div class="text-dynamic-content home-carousel-rotate-item lang" key="img_slider2"></div>
+                        <div class="text-dynamic-content home-carousel-rotate-item lang" key="img_slider2"></div>
+                        <div class="text-dynamic-content home-carousel-rotate-item lang" key="img_slider2"></div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
     
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about_box">
                 <div class="about_card_vidio">
-                    <video class="about_vidio" src="image/abut_vidio.mp4" controls></video>
+                    <a href="#!"> <i class="fas fa-play-circle " id="myBtn"></i></a>
+                    <img src="image/img_slider2.jpg" alt="">
                 </div>
                 <div class="about_card_text">
-                    <h2 class="about_title">About <span>TOURFETTO</span></h2>
-                    <p class="about_text">Siz munosib ta'tilga chiqyapsizmi va undan unumli foydalanmoqchimisiz? Toshkentdagi sayyohlik agentligimiz har qanday turdagi dam olishni tashkil etishda yordam beradi: voqealarga boy va sportga boy dam olish kunlaridan tortib to plyajdagi uzoq dam olishgacha. Biz sizning byudjetingiz va shaxsiy ehtiyojlaringizni hisobga olgan holda sayohatingizni rejalashtiramiz.</p>
-                    <p class="about_text">Toshkentdagi sayyohlik agentligimiz xodimlari katta tajribaga ega, shuning uchun ular mijozlarga tez va sifatli xizmat ko'rsatadilar va tur tanlashda malakali yordam ko'rsatadilar. Biz dunyoning turli mamlakatlaridagi eng yaxshi mehmonxonalar va sayyohlik tashkilotlari bilan hamkorlik qilamiz. Biz bilan sayohat qilish oson, yoqimli va arzon!</p>
+                    <div class="about_title1 " ><h2 class="about_title lang" key="about_text1"></h2> <p class="about_title lang" key="about_text2" style="color: #FDBA24;"></p></div>
+                    <p class="about_text lang" key="about_text3"></p>
+                    <p class="about_text lang" key="about_text4"></p>
                 </div>
             </div>
         </div>
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <video class="about_vidio" id="myVideo5" controls>
+                <source src="image/abut_vidio.mp4" type="video/mp4">
+            </video>
+            </div>
+          
+          </div>
     </section>
 
     <section class="destination">
         <div class="container">
-            <h2 class="destination_title">Mashhur Yo'nalishlar</h2>
+            <h2 class="destination_title lang" key="destination_text1"></h2>
             <div class="destination_box">
                 <div class="destination_card_img1">
-                    <a href="#!" class="img_wrapper_container1">
+                    <a href="tour_page/index.html" class="img_wrapper_container1">
                         <div class="img_wrapper">
                             <div class="img_text1">
-                                <p>Salom</p>
+                                <p class="lang" key="destination_text2"></p>
                                 <div class="border"></div>
                             </div>
                             <img src="image/destination_img1.1.jpg" alt="">
-
                         </div>
                     </a>
                     <a href="#!" class="img_wrapper_container2">
                         <div class="img_wrapper">
                             <div class="img_text1">
-                                <p>Salom</p>
+                                <p class="lang" key="destination_text3"></p>
                                 <div class="border"></div>
                             </div>
                             <img src="image/destination_img2.jpg" alt="">
-
                         </div>
                     </a>
                     <a href="#!" class="img_wrapper_container3">
                         <div class="img_wrapper">
                             <div class="img_text1">
-                                <p>Salom</p>
+                                <p class="lang" key="destination_text4"></p>
                                 <div class="border"></div>
                             </div>
                             <img src="image/destination_img3.jpg" alt="">
@@ -138,31 +149,28 @@
                     <a href="#!" class="img_wrapper_container2">
                         <div class="img_wrapper">
                             <div class="img_text1">
-                                <p>Salom</p>
+                                <p class="lang" key="destination_text5"></p>
                                 <div class="border"></div>
                             </div>
-                            <img src="image/destination_img2.jpg" alt="">
-
+                            <img src="image/destination_img4.jpg" alt="">
                         </div>
                     </a>
                     <a href="#!" class="img_wrapper_container3">
                         <div class="img_wrapper">
                             <div class="img_text1">
-                                <p>Salom</p>
+                                <p class="lang" key="destination_text6"></p>
                                 <div class="border"></div>
                             </div>
-                            <img src="image/destination_img3.jpg" alt="">
-
+                            <img src="image/destination_img5.jpg" alt="">
                         </div>
                     </a>
                     <a href="#!" class="img_wrapper_container1">
                         <div class="img_wrapper">
                             <div class="img_text1">
-                                <p>Salom</p>
+                                <p class="lang" key="destination_text7"></p>
                                 <div class="border"></div>
                             </div>
-                            <img src="image/destination_img1.1.jpg" alt="">
-
+                            <img src="image/destination_img6.jpg" alt="">
                         </div>
                     </a>
                 </div>
@@ -172,32 +180,32 @@
 
     <section class="seasonal">
         <div class="container">
-            <h2 class="seasonal_title">Mavsumiy sayohatlar</h2>
+            <h2 class="seasonal_title lang" key="seasonal_text1"></h2>
             <div class="seasonal_box">
                 <div class="seasonal_card">
-                    <a class="seasonal_img_link" href="#!" >
+                    <a class="seasonal_img_link" href="catygore_page/index.html" >
                         <img src="image/seasonal_img1.jpg" alt="">
                         <div class="card_overlay">
-                            <p class="card_text">Turkiya</p>
-                            <a class="card_text2" href="#!">Batafsil -></a>
+                            <p class="card_text lang" key="seasonal_text2"></p>
+                            <a class="card_text2 lang" key="seasonal_text5" href="catygore_page/index.html"></a>
                         </div>
                     </a>
                 </div>
                 <div class="seasonal_card">
-                    <a class="seasonal_img_link" href="#!" >
+                    <a class="seasonal_img_link" href="catygore_page/index.html" >
                         <img src="image/seasonal_img2.jpg" alt="">
                         <div class="card_overlay">
-                            <p class="card_text">Gruziya</p>
-                            <a class="card_text2" href="#!">Batafsil -></a>
+                            <p class="card_text lang" key="seasonal_text3"></p>
+                            <a class="card_text2 lang" key="seasonal_text5" href="catygore_page/index.html"><a>
                         </div>
                     </a>
                 </div>
                 <div class="seasonal_card">
-                    <a class="seasonal_img_link" href="#!" >
+                    <a class="seasonal_img_link" href="catygore_page/index.html" >
                         <img src="image/seasonal_img3.jpg" alt="">
                         <div class="card_overlay">
-                            <p class="card_text">Issiq-ko'l</p>
-                            <a class="card_text2" href="#!">Batafsil -></a>
+                            <p class="card_text lang" key="seasonal_text4"></p>
+                            <a class="card_text2 lang" key="seasonal_text5" href="catygore_page/index.html"></a>
                         </div>
                     </a>
                 </div>
@@ -207,7 +215,7 @@
 
 
 <div class="slider">
-    <h2 class="aboutme2_title">Ular biz haqimizda nima deyishadi?</h2>
+    <h2 class="aboutme2_title lang" key="aboutme_text1">Ular biz haqimizda nima deyishadi?</h2>
     <div class="slide-container swiper">
 		<div class="slide-content">
 			<div class="card-wrapper swiper-wrapper">
@@ -280,7 +288,7 @@
 </div>
 
 
-<section class="new_container">
+<section class="new_container" id="news">
     <div class="container">
         <h2 class="new_title">Yangiliklar</h2>
         <div class="new_box">
@@ -308,10 +316,9 @@
                         </div>
                     </div>
                 </a>
-
                 <a href="#!" class="new_link ">
                     <div  class="new_card ">
-                        <img class="new_card_img" src="image/tayland.jpg" alt="">
+                        <img class="new_card_img" src="image/vetnam.jpg" alt="">
                         <div class="new_card_text1">
                             <div class="text_row1">
                                 <p>4325$</p>
@@ -333,11 +340,9 @@
                         </div>
                     </div>
                 </a>
-
-
                 <a href="#!" class="new_link ">
                     <div  class="new_card ">
-                        <img class="new_card_img" src="image/tayland.jpg" alt="">
+                        <img class="new_card_img" src="image/gruziya.jpg" alt="">
                         <div class="new_card_text1">
                             <div class="text_row1">
                                 <p>756$</p>
@@ -362,7 +367,7 @@
 
                 <a href="#!" class="new_link ">
                     <div  class="new_card ">
-                        <img class="new_card_img" src="image/tayland.jpg" alt="">
+                        <img class="new_card_img" src="image/abu-dabi.jpg" alt="">
                         <div class="new_card_text1">
                             <div class="text_row1">
                                 <p>856$</p>
@@ -391,14 +396,14 @@
 
 <section class="order">
     <div class="container">
-        <p class="order_subtitle">Biz bilan bog'lanish uchun ushbu maydonni to'ldiring.</p>
-        <h2 class="order_title">Buyurtma</h2>
+        <p class="order_subtitle lang" key="order_text1"></p>
+        <h2 class="order_title lang" key="order_text2"></h2>
         <div class="order_box">
             <input class="order_input" type="text" placeholder="ИМЯ">
-            <input class="order_input" type="text" placeholder="+998_______">
+            <input class="order_input" type="number" placeholder="+998_______">
             <input class="order_input" type="text" placeholder="yourmail@gmail.com">
             <textarea class="coment_input" type="text"></textarea>
-            <a class="order_link" href="#!">xabar yubormoq</a>
+            <a class="order_link lang" key="order_text3" href="#!"></a>
         </div>
     </div>
 </section>
@@ -407,45 +412,48 @@
     <div class="container">
         <div class="footer_box">
             <div class="footer_first_box">
-                <div class="first_block1">
+                <div class="first_block1_1">
                     <div class="first_block1_img">
-                        <img src="image/logo1.1.png" alt="">
+                        <img src="image/logo1.png" alt="">
                     </div>
                     <div class="first_block1_text">
-                        TOURFETTO sayyohlik agentligi xalqaro bozorda taqdim etilgan 2023 yildan turizm.
+                        <p class="lang" key="footer_text1"></p>
                     </div>
                     <div class="first_block_location">
                         <img src="image/footer-geo2.png" alt="">
-                        <p class="lang" key="footer_text6">Kattaqo'rg'on ko'ch. 20-uy, Toshkent Shahar</p>
+                        <p class="lang" key="footer_text2">Toshkent Shahar</p>
                     </div>
-
                 </div>
-                    <div class="second_block">
-                        <h2 class="second_title lang" key="footer_text7">Menyu</h2>
-                        <div class="second_subtitle">
-                            <li><a href="" class="lang" key="footer_text8">Qadriyatlarimiz</a></li>
-                            <li><a href="" class="lang" key="footer_text9">CMD-TECh jamoasi</a></li>
-                            <li><a href="" class="lang" key="footer_text10">Jamoamizga qo'shiling</a></li>
-                            <li><a href="" class="lang" key="footer_text11">Aloqalar</a></li>
-                        </div> 
-                    </div>
-                <div class="firs_block1">
-                    <p class="first_block3_title lang" key="footer_text5">Aloqalar</p>
-                    <div class="first_block_location">
-                        <img src="imgs/footer-geo2.png" alt="">
-                        <p class="lang" key="footer_text6">Kattaqo'rg'on ko'ch. 20-uy, Toshkent Shahar</p>
-                    </div>
-                    <div class="first_block3_gmail">
-                        <img src="imgs/footer-mail2.png" alt="">
-                        <p>cmd_tech.@gmail.com</p>
-                    </div>
-                    <div class="first_block3_website">
-                        <img src="imgs/footer-web.png" alt="">
-                        <p>https://cmd_tech.uz</p>
+                <div class="first_block1">
+                    <h2 class="footer_menu_title lang" key="footer_text3">Menyu</h2>
+                    <ul class="footer_list">
+                        <li><a href="" class="footer_list_link lang" key="footer_text4"></a></li>
+                        <li><a href="" class="footer_list_link lang" key="footer_text5"></a></li>
+                        <li><a href="" class="footer_list_link lang" key="footer_text6"></a></li>
+                        <li><a href="" class="footer_list_link lang" key="footer_text7"></a></li>
+                        <li><a href="" class="footer_list_link lang" key="footer_text8"></a></li>
+                    </ul>
+                </div>
+                <div class="first_block1">
+                    <h2 class="footer_menu_title lang" key="footer_text9"></h2>
+                    <ul class="footer_list">
+                        <li><a href="" class="footer_list_link lang" key="footer_text10"></a></li>
+                        <li><a href="" class="footer_list_link lang" key="footer_text11"></a></li>
+                        <li><a href="" class="footer_list_link lang" key="footer_text12"></a></li>
+                        <li><a href="" class="footer_list_link lang" key="footer_text13"></a></li>
+                        <li><a href="" class="footer_list_link lang" key="footer_text14"> </a></li>
+                        <li><a href="" class="footer_list_link lang" key="footer_text15"></a></li>
+                    </ul>
+                </div>
+                <div class="first_block1_2">
+                    <h2 class="network_title lang" key="footer_text16"></h2>
+                    <div class="network_card">
+                        <a href=""><img src="image/footer-facebook.png" alt=""></a>
+                        <a href=""><img src="image/footer-instagram.png" alt=""></a>
+                        <a href=""><img src="image/footer-telegram.png" alt=""></a>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
     <div class="footer_end">
@@ -461,5 +469,8 @@
     <script src="js/navbar.js"></script>
     <script src="js/card_slider.js"></script>
     <script src="js/new_slider.js"></script>
+    <script src="js/about_vidio.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/lang.js"></script>
 </body>
 </html>
