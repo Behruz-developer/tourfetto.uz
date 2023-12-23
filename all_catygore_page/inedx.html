@@ -6,13 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 </head>
 <body>
@@ -29,11 +25,12 @@
                 </div>
                       <ul class="nav_list">
                           <label class="btnn cancel" style="color: white;"><i class="fa fa-close"></i></label>
-                          <li><a href="#home" class="lang" >Bosh Sahifa</a></li>
-                          <li><a href="#about" class="lang" key="">Biz haqimizda</a></li>
-                          <li><a href="#news" class="lang" key="">Yangiliklar</a></li>
-                          <li><a href="#tours" class="lang" key="">Ekskursiyalar</a></li>
-                          <li><a href="#contact" class="lang" key="">Kontakt</a></li>
+                          <li><a href="#home" class="lang" key="home"></a></li>
+                          <li><a href="#about" class="lang" key="about"></a></li>
+                          <li><a href="all_new_page/index.html" class="lang" key="new"></a></li>
+                          <li><a href="all_catygore_page/inedx.html" class="lang" key="tour"></a></li>
+                          <li><a href="all_catygore_page/inedx.html" class="lang" key="tour1"></a></li>
+                          <li><a href="#contact" class="lang" key="contact"></a></li>
                         <div class="language_container1">
                             <a class="lang-button  active_lang"  data-lang="ru"><img src="image/flag_ru.png" alt=""></a>
                             <a class="lang-button  "  data-lang="uz"><img src="image/flag_uz.png" alt=""></a>
@@ -55,8 +52,8 @@
     <section class="intro">
         <div class="intro_box">
             <div class="intro_card">
-                <h2 class="intro_title">Biz bilan maroqli sayohat</h2>
-                <a href="/index.html" class="intro_link">Bosh sahifa ></a>
+                <h2 class="intro_title lang" key="intro_text1">Biz bilan maroqli sayohat</h2>
+                <a href="/index.html" class="intro_link lang" key="intro_text2">Bosh sahifa ></a>
             </div>
             <img src="image/img_slider1.jpg" alt="">
         </div>
@@ -65,14 +62,14 @@
 
     <section class="seasonal">
         <div class="container">
-            <h2 class="seasonal_title lang" key="seasonal_text1">Category</h2>
+            <h2 class="seasonal_title lang" key="tour">Category</h2>
             <div class="seasonal_box">
                 <div class="seasonal_card">
                     <a class="seasonal_img_link" href="catygore_page/index.html" >
                         <img src="image/seasonal_img1.jpg" alt="">
                         <div class="card_overlay">
-                            <p class="card_text lang" key="seasonal_text2"></p>
-                            <a class="card_text2 lang" key="seasonal_text5" href="catygore_page/index.html"></a>
+                            <p class="card_text ">Istanbul</p>
+                            <a class="card_text2 "  href="catygore_page/index.html">Batafsil</a>
                         </div>
                     </a>
                 </div>
@@ -81,8 +78,8 @@
                     <a class="seasonal_img_link" href="catygore_page/index.html" >
                         <img src="image/seasonal_img2.jpg" alt="">
                         <div class="card_overlay">
-                            <p class="card_text lang" key="seasonal_text3"></p>
-                            <a class="card_text2 lang" key="seasonal_text5" href="catygore_page/index.html"><a>
+                            <p class="card_text " >Vietnam</p>
+                            <a class="card_text2 "  href="catygore_page/index.html">Batafsil<a>
                         </div>
                     </a>
                 </div>
@@ -90,8 +87,53 @@
                     <a class="seasonal_img_link" href="catygore_page/index.html" >
                         <img src="image/seasonal_img3.jpg" alt="">
                         <div class="card_overlay">
-                            <p class="card_text lang" key="seasonal_text4"></p>
-                            <a class="card_text2 lang" key="seasonal_text5" href="catygore_page/index.html"></a>
+                            <p class="card_text " >Issiq-ko'l</p>
+                            <a class="card_text2 "  href="catygore_page/index.html">Batafsil</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="seasonal_card">
+                    <a class="seasonal_img_link" href="catygore_page/index.html" >
+                        <img src="image/destination_img2.jpg" alt="">
+                        <div class="card_overlay">
+                            <p class="card_text " >Gruziya</p>
+                            <a class="card_text2 "  href="catygore_page/index.html">Batafsi</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="seasonal_card">
+                    <a class="seasonal_img_link" href="catygore_page/index.html" >
+                        <img src="image/destination_img3.jpg" alt="">
+                        <div class="card_overlay">
+                            <p class="card_text " >Gruziya</p>
+                            <a class="card_text2 "  href="catygore_page/index.html">Batafsi</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="seasonal_card">
+                    <a class="seasonal_img_link" href="catygore_page/index.html" >
+                        <img src="image/img_slider1.jpg" alt="">
+                        <div class="card_overlay">
+                            <p class="card_text " >Gruziya</p>
+                            <a class="card_text2 "  href="catygore_page/index.html">Batafsi</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="seasonal_card">
+                    <a class="seasonal_img_link" href="catygore_page/index.html" >
+                        <img src="image/img_slider3.jpg" alt="">
+                        <div class="card_overlay">
+                            <p class="card_text " >Gruziya</p>
+                            <a class="card_text2 "  href="catygore_page/index.html">Batafsi</a>
+                        </div>
+                    </a>
+                </div>
+                <div class="seasonal_card">
+                    <a class="seasonal_img_link" href="catygore_page/index.html" >
+                        <img src="image/destination_img2.jpg" alt="">
+                        <div class="card_overlay">
+                            <p class="card_text " >Gruziya</p>
+                            <a class="card_text2 "  href="catygore_page/index.html">Batafsi</a>
                         </div>
                     </a>
                 </div>
@@ -99,8 +141,8 @@
                     <a class="seasonal_img_link" href="catygore_page/index.html" >
                         <img src="image/seasonal_img3.jpg" alt="">
                         <div class="card_overlay">
-                            <p class="card_text lang" key="seasonal_text4"></p>
-                            <a class="card_text2 lang" key="seasonal_text5" href="catygore_page/index.html"></a>
+                            <p class="card_text " >Gruziya</p>
+                            <a class="card_text2 "  href="catygore_page/index.html">Batafsi</a>
                         </div>
                     </a>
                 </div>
@@ -163,5 +205,6 @@
         </div>
     </footer>
     <script src="js/navbar.js"></script>
+    <script src="js/lang.js"></script>
 </body>
 </html>

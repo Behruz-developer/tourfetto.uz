@@ -455,7 +455,7 @@ nav label.cancel {
   }
   .new_card{
     background: white;
-    padding: 25px;
+    /* padding: 25px; */
     position: relative;
     /* width: 45%; */
     flex: 0 0 30%;
@@ -467,7 +467,9 @@ nav label.cancel {
     margin-right: 0;
   }
   
-  
+  .new_card_text3{
+    padding: 0px 20px 20px 20px;
+  }
   
   .new_card_img{
     width: 100%;
@@ -495,7 +497,7 @@ nav label.cancel {
   }
   .text_row1 h2{
     color: white;
-    font-size: 44px;
+    font-size: 35px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     
