@@ -429,7 +429,8 @@ nav label.cancel {
     padding-top: 100px;
     padding-bottom: 50px;
     width: 100%;
-    background: #F7FAFF;}
+    background: #F7FAFF;
+  }
   
   .new_title{
     text-align: center;
@@ -589,7 +590,12 @@ nav label.cancel {
       position: relative;
       scroll-behavior: smooth;
     }
-    
+    .new_container{
+      padding-top: 70px;
+      padding-bottom: 50px;
+      width: 100%;
+      background: #F7FAFF;
+    }
   
   }
   @media (max-width:1250px) {

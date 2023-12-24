@@ -17,7 +17,6 @@
 
 }
 .header{
-    margin-bottom: 100px;
 }
 
 nav {
@@ -232,6 +231,13 @@ nav.scrolled .nav_tel{
       color: white;
   
   }
+  .nav_tel{
+    text-decoration: none;
+    color: #174581;
+    font-family: "Intro", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+  }
    
   }
 
@@ -336,14 +342,6 @@ nav.scrolled .nav_tel{
     .language_container2{
         display: none;
     }
-    .nav_tel{
-        text-decoration: none;
-        color: #174581;
-
-        font-weight: 800;
-        font-family: "Intro";
-        font-size: 18px;
-      }
 
     .container{
         width: 90%;
@@ -444,7 +442,6 @@ nav.scrolled .nav_tel{
     clip-path: polygon(66.6% 0%, 100% 0%,100% 100%, 66.6% 100% );
   }
   
-  /* Transition Styles */
   .home-carousel-rotate-wrapper > div.home-carousel-rotate-item {
     top:0%;
     transition: all 1s cubic-bezier(.8, 0, .8, 1);
@@ -468,14 +465,11 @@ nav.scrolled .nav_tel{
   .home-carousel-text {
 
     position: absolute;
-    /* text-align: left; */
     bottom: 50%;
-    /* z-index: 5; */
     color:  white;
     font-size: 75px;
     line-height: 1em;
     font-weight: 700;
-    /* text-align: center; */
     
   }
   
@@ -490,7 +484,6 @@ nav.scrolled .nav_tel{
   }
   
   .home-carousel-labels {
-    text-align: left;
     position: absolute;
     right:30px;
     bottom:30px;
@@ -511,27 +504,65 @@ nav.scrolled .nav_tel{
   .home-carousel-labels .home-carousel-label {
     height: 100%;
     display: flex;
-    align-content: left;
-    justify-content: left;
     position: relative;
     top: 0;
     right: 0;
   }
 
-  @media (max-width:630px) {
+
+  @media (max-width:960px) {
+    .home-carousel-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%; /* Bu yerda slayderingizning balandligini sozlang */
+  }
     .home-carousel-text {
 
         position: absolute;
-        text-align: left;
-        left:30px;
-        bottom:30px;
-        /* z-index: 5; */
         color:  white;
-        font-size: 50px;
+        font-size: 40px;
         line-height: 1em;
         font-weight: 700
       }
+      .home-carousel-text .text-dynamic > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1em;	
+        overflow: hidden;
+        line-height: 1em;
+    
+      }
   }
+  @media (max-width:630px) {
+    .home-carousel-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%; /* Bu yerda slayderingizning balandligini sozlang */
+  }
+    .home-carousel-text {
+
+        position: absolute;
+        color:  white;
+        font-size: 30px;
+        line-height: 1em;
+        font-weight: 700
+      }
+      .home-carousel-text .text-dynamic > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1em;	
+        overflow: hidden;
+        line-height: 1em;
+    
+      }
+  }
+
 
 .about{
   padding-top: 100px;
@@ -656,6 +687,9 @@ nav.scrolled .nav_tel{
 }
 
 @media (max-width:480px) {
+  .about{
+    padding-top: 70px;
+  }
   .about_title{
     color: #174581;
     font-family: "Roboto";
@@ -680,7 +714,6 @@ nav.scrolled .nav_tel{
 
 .destination{
   padding-top: 100px;
-  margin-bottom: 100px;
 }
 .destination_title{
   text-align: center;
@@ -795,13 +828,17 @@ nav.scrolled .nav_tel{
   }
 
 }
-
+@media (max-width:480px) {
+  .destination{
+    padding-top: 70px;
+    margin-bottom: 0px;
+  }
+}
 
 /***Seasonal***/
 .seasonal{
-  /* padding-top: 50px; */
-  /* background: #f2f2f3; */
-  padding-bottom: 50px;
+  padding-top: 70px;
+
 }
 .seasonal_title{
   text-align: center;
@@ -937,7 +974,7 @@ nav.scrolled .nav_tel{
 
 .slider{
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   position: sticky;
 }
 .aboutme2_title{
@@ -947,7 +984,6 @@ nav.scrolled .nav_tel{
   font-size: 32px;
   font-weight: 500;
   line-height: 48px;
-  margin-bottom: 50px;
 }
 .slide-container{
   width: 80%;
@@ -1073,7 +1109,8 @@ nav.scrolled .nav_tel{
   padding-top: 100px;
   padding-bottom: 50px;
   width: 100%;
-  background: #F7FAFF;}
+  background: #F7FAFF;
+}
 
 .new_title{
   text-align: center;
@@ -1086,10 +1123,8 @@ nav.scrolled .nav_tel{
 }
 .new_box{
   display: flex;
-  /* justify-content: center; */
-  /* column-gap: 2.5%; */
+
   width: 100%;
-  /* flex-wrap: wrap; */
   overflow: hidden;
   position: relative;
   scroll-behavior: smooth;
@@ -1102,7 +1137,6 @@ nav.scrolled .nav_tel{
   background: white;
   padding: 25px;
   position: relative;
-  /* width: 45%; */
   flex: 0 0 47.5%;
   transition: transform 0.5s ease, ;
   margin-right: 5%;
@@ -1227,6 +1261,14 @@ nav.scrolled .nav_tel{
 }
 .next-btn {
   right: 5%;
+}
+@media (max-width: 480px) {
+  .new_container{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    width: 100%;
+    background: #F7FAFF;
+  }
 }
 @media (max-width:960px) {
   .new_card{
@@ -1355,7 +1397,13 @@ nav.scrolled .nav_tel{
     width: 100%;
   }
 }
-
+@media (max-width:480px) {
+  .order{
+    width: 100%;
+    padding-top: 70px;
+    margin-bottom: 70px;
+  }
+}
 /* Footer */
 
 
