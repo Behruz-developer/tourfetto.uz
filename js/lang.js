@@ -45,6 +45,8 @@ const langData = {
       "footer_text14": "Gruziya",
       "footer_text15": "Vetnam",
       "footer_text16": "Biz ijtimoiy tarmoqlardamiz",
+      "modal-text": "So'rovingiz muvaffaqiyatli jo'natildi✅",
+
       "": "",
       "": "",
   
@@ -96,6 +98,7 @@ const langData = {
       "footer_text14": "Грузия",
       "footer_text15": "Vetnam",
       "footer_text16": "Мы в социальных сетях",
+      "modal-text": "Ваш запрос успешно отправлен✅",
       "": "", 
       "": "", 
       "": "", 
@@ -153,6 +156,7 @@ const langData = {
       "footer_text14": "Georgia",
       "footer_text15": "Vietnam",
       "footer_text16": "We are on social media",
+      "modal-text": "Your request has been sent successfully✅",
       "": "",
       "": "",
       "": "",

@@ -645,7 +645,6 @@ nav label.cancel {
   }
   .new_card{
     background: white;
-    padding: 25px;
     position: relative;
     /* width: 45%; */
     flex: 0 0 100%;
