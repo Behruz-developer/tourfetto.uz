@@ -429,6 +429,14 @@ nav label.cancel {
   padding-bottom: 100px;
 
 }
+.description_title{
+  font-size: 37px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #174581;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
 .new_description_box{
   display: flex;
   flex-direction: column;
@@ -680,7 +688,6 @@ nav label.cancel {
 }
 .first_block1_img img{
   width: 120px;
-  height: 81.08px;
 }
 .first_block1_text{
   margin-top: 24px;
