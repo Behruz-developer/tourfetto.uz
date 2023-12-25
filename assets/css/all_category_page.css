@@ -68,15 +68,7 @@ body{
     /* background: #f2f2f3; */
     padding-bottom: 50px;
   }
-  .seasonal_title{
-    text-align: center;
-    color: #174581;
-    font-family: "Inter";
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 48px;
-    margin-bottom: 30px;
-  }
+
   .seasonal_box {
     width: 100%; 
     overflow: hidden; 
@@ -196,11 +188,17 @@ body{
     
     }
     .seasonal{
-      padding-top: 100px;
+      padding-top: 70px;
       /* background: #f2f2f3; */
       padding-bottom: 50px;
     }
-    
+    .card_text2{
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+    .card_text {
+      font-size: 20px; 
+    }
   }
 
 

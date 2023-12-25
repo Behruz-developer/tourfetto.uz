@@ -68,15 +68,7 @@ body{
     padding-top: 100px;
     margin-bottom: 100px;
   }
-  .destination_title{
-    text-align: center;
-    color: #174581;
-    font-family: "Inter";
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 48px;
-    margin-bottom: 30px;
-  }
+
   .destination_box{
     display: flex;
     column-gap: 2%;

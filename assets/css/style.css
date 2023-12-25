@@ -336,15 +336,7 @@
 .destination{
   padding-top: 100px;
 }
-.destination_title{
-  text-align: center;
-  color: #174581;
-  font-family: "Inter";
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 48px;
-  margin-bottom: 30px;
-}
+
 .destination_box{
   display: flex;
   column-gap: 2%;
@@ -461,15 +453,7 @@
   padding-top: 70px;
 
 }
-.seasonal_title{
-  text-align: center;
-  color: #174581;
-  font-family: "Inter";
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 48px;
-  margin-bottom: 30px;
-}
+
 .seasonal_box {
   width: 100%; 
   overflow: hidden; 
@@ -598,14 +582,7 @@
   padding-bottom: 30px;
   position: sticky;
 }
-.aboutme2_title{
-  text-align: center;
-  color: #174581;
-  font-family: "Inter";
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 48px;
-}
+
 .slide-container{
   width: 80%;
   margin-left: 10%;
@@ -733,15 +710,7 @@
   background: #F7FAFF;
 }
 
-.new_title{
-  text-align: center;
-  color: #174581;
-  font-family: "Inter";
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 48px;
-  margin-bottom: 50px;
-}
+
 .new_box{
   display: flex;
 
@@ -1082,6 +1051,9 @@
   }
   .coment_input{
     width: 100%;
+  }
+  .order_title{
+    font-size: 33px;
   }
 }
 @media (max-width:480px) {

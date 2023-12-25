@@ -68,15 +68,7 @@ body{
     background: #F7FAFF;
   }
   
-  .new_title{
-    text-align: center;
-    color: #174581;
-    font-family: "Inter";
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 48px;
-    margin-bottom: 50px;
-  }
+
   .new_box{
     display: flex;
     row-gap: 40px;

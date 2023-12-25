@@ -365,8 +365,6 @@ nav label.cancel {
 
 
   /* Footer */
-
-
   
 .footer{
     width: 100%;
@@ -515,9 +513,6 @@ nav label.cancel {
   
   }
   
-  
-  
-  
   .footer_end{
     padding: 5px 0px;
     background: #1B2951;
@@ -561,8 +556,7 @@ nav label.cancel {
     }
   
   }
-  
-  
+    
   .modal2{
     display: none;
     position: fixed; 
@@ -638,5 +632,22 @@ nav label.cancel {
       /* background: white; */
       padding: 15px;
       border-radius: 5px;
+    }
+  }
+
+  .container_title{
+    text-align: center;
+    color: #174581;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width:650px) {
+    .container_title{
+      font-size: 26px;
+
     }
   }

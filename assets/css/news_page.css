@@ -122,6 +122,12 @@ body{
     padding-bottom: 40px;
   
   }
+  .description_title{
+    font-size: 26px;
+  }
+  .new_description_box h2{
+    font-size: 26px;
+  }
 }
 
 
@@ -132,15 +138,7 @@ body{
   background: #F7FAFF;
 }
 
-.new_title{
-  text-align: center;
-  color: #174581;
-  font-family: "Inter";
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 48px;
-  margin-bottom: 30px;
-}
+
 .new_box{
   display: flex;
 
