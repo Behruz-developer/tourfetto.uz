@@ -29,3 +29,22 @@ function scrollContainer(scrollAmount) {
       : -container.clientWidth * 0.525;
     scrollContainer(scrollAmount);
   });
+
+
+  function scrollContainer(scrollAmount) {
+    if (container.scrollLeft + container.clientWidth >= container.scrollWidth) {
+      // Agar konteyner oxiriga yetgan bo'lsa, boshiga qaytarish
+      container.scrollLeft = 0;
+    } else {
+      // Aks holda, keyingi karta o'zgarishi
+      container.scrollLeft += scrollAmount;
+    }
+  }
+  
+  // Har 3 soniyada kartalarni aylantirish
+  setInterval(() => {
+    const scrollAmount = window.matchMedia("(max-width: 960px)").matches
+      ? container.clientWidth
+      : container.clientWidth * 0.525;
+    scrollContainer(scrollAmount);
+  }, 4000);

@@ -141,7 +141,6 @@ gap: 20px;
   nav {
     width: 100%;
     padding: 12px 0;
-    background: rgba(255, 255, 255, 0.80);
     position: fixed;
     z-index: 1;
     overflow-x: hidden;
@@ -245,7 +244,7 @@ gap: 20px;
   nav {
     width: 100%;
     padding: 12px 0;
-    background: rgba(255, 255, 255, 0.80);
+    /* background: rgba(255, 255, 255, 0.80); */
     position: fixed;
     z-index: 1;
     overflow-x: hidden;
@@ -344,14 +343,21 @@ gap: 20px;
       display: none;
   }
   .nav_tel{
-      color: #174581;
+    text-align: center;
+      color: white;
+  }
+  .fa{
+    color: white;
+  }
+  nav.scrolled .fa{
+    color: #174581;
   }
 }
 
 @media (min-width:961px) and (max-width:1047px) {
   .menu ul li a {
       text-decoration: none;
-      font-size: 16px;
+      font-size: 12px;
       color: white;
       /* font-weight: 400; */
       display: inline-flex;
@@ -365,7 +371,7 @@ gap: 20px;
 @media (min-width:1047px) and (max-width:1280px) {
   .menu ul li a {
       text-decoration: none;
-      font-size: 16px;
+      font-size: 13px;
       color: white;
       /* font-weight: 400; */
       display: inline-flex;
@@ -1743,7 +1749,7 @@ gap: 20px;
 }
 .intro_box{
   width: 100%;
-  padding-top: 94px;
+  padding-top: 90px;
 }
 .intro_card{
   position: absolute;

@@ -1,66 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Pacifico&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Smooch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Pacifico&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Smooch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
     background: #f2f2f3;
 }
-
-
-
-.intro{
-  width: 100%;
-  
+.fa{
+  color: #174581;
 }
-.intro_box{
-  width: 100%;
-  padding-top: 94px;
-}
-.intro_card{
-  position: absolute;
-  width: 100%;
-  height: 400px;
-  background: rgb(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.intro_title{
-  color: white;
-  font-size: 40px;
-  font-family: "Inter", sans-serif;
-}
-.intro_link{
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  font-family: "Inter", sans-serif;
-}
-.intro_box img{
-  width: 100%;
-  object-fit: cover;
-  height: 400px;
-}
-@media (max-width:560px) {
-  .intro_title{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    font-family: "Inter", sans-serif;
-  }
-}
-
-
 .new_description{
   width: 100%;
   padding-top: 100px;
@@ -105,21 +49,13 @@ body{
 @media (max-width:760px) {
   .new_description_box img{
     width: 100%;
-    border-radius: 20px;
-    margin-bottom: 30px;
   }
   .new_description_box p{
     width: 100%;
-    font-size: 18px;
-    color: #333;
-    font-family: "Intro", sans-serif;
-    line-height: 150%;
-    font-weight: 400;
+
   }
   .new_description{
-    width: 100%;
     padding-top: 70px;
-    padding-bottom: 40px;
   
   }
   .description_title{
@@ -130,152 +66,42 @@ body{
   }
 }
 
-
 .new_container{
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   width: 100%;
   background: #F7FAFF;
 }
-
-
 .new_box{
   display: flex;
-
   column-gap: 2%;
   width: 100%;
   flex-wrap: wrap;
   position: relative;
   scroll-behavior: smooth;
 }
-
 .new_link{
   text-decoration: none;
 }
 .new_card{
-  background: white;
-  /* padding: 25px; */
+  padding: 0px;
   position: relative;
-  /* width: 45%; */
   flex: 0 0 30%;
-  transition: transform 0.5s ease, ;
-  /* margin-right: 5%; */
 }
-
 .new_card:last-child{
   margin-right: 0;
 }
-
-
-
-.new_card_img{
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-  margin-bottom: 20px;
-}
 .new_card_text1{
   bottom: 250px;
-  position: absolute;
-  padding-left: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  /* row-gap: 20px; */
-
-}
-.new_card_text3{
-  padding: 0px 25px 25px 25px;
-}
-.text_row1 p{
-  display: inline-block;
-  padding: 5px;
-  color: white;
-  background: #FE611D;
-  font-family: "Intto" ,sans-serif;
-  margin-bottom: 10px;
 }
 .text_row1 h2{
-  color: white;
   font-size: 35px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  
 }
-.text_row1 h4 {
-  color: white;
-  font-size: 14px;
-  line-height: 150%;
-  font-family: "Intro", sans-serif;
-  letter-spacing: 1px;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-.row2_link{
-  text-decoration: none;
-  color: white;
-  background: #FE611D;
-  padding: 5px;
-  /* border-radius: 5px; */
-  font-family: "Intro", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  display: block;
-}
-.new_subtitle1{
-  color: #252E45;
-  font-family: "Open", sans-serif;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  padding-bottom: 50px;
-}
-
-.new_subtitle2{
-  color: #252E45;
-  font-family: "Open", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; 
-}
-.new_card_text2{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
-.new_card_text2 a{
-  text-decoration: none;
-  color: #252E45;
-  font-family: "Open", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 162.5% */
-}
-.new_card_icon{
-  display: flex;
-}
-.new_card_icon img{
-  width: 24px;
-}
-.new_card_icon p{
-  color: #252E45;
-  font-family: "Open", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-}
-
-
 
 @media (max-width:960px) {
   .new_container{
     padding-top: 70px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     width: 100%;
     background: #F7FAFF;
   }
@@ -284,8 +110,7 @@ body{
     position: relative;
     /* width: 45%; */
     flex: 0 0 100%;
-    transition: transform 0.5s ease, ;
-    margin-right: 0%;
+
   }
   .new_box{
     display: flex;
@@ -302,17 +127,8 @@ body{
     width: 100%;
     background: #F7FAFF;
   }
-  
+}
 
-}
-@media (max-width:1250px) {
-  .new_card_text1 h2{
-    color: white;
-    /* margin-left: 20px; */
-    font-size: 34px;
-    font-family: "Montserrat", sans-serif;
-  }
-}
 
 
 
