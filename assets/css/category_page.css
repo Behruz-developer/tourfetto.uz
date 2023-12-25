@@ -1,168 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Pacifico&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Smooch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Pacifico&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Smooch&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
     background: #f2f2f3;
 }
+nav{
+    background: rgba(255, 255, 255, 0.80);
+}
+nav.scrolled{
+  background: rgba(255, 255, 255, 0.80);
+}
+.logo2 img{
 
+  display: block;
+}
+.menu ul li a{
+  color: #174581;
+}
+.nav_tel{
+  color: #174581;
+}  
+.img_wrapper_container{
+  width: 31.5%;
+}
+@media (max-width:980px) {
 
+  .img_wrapper_container{
+    width: 49%;
+  }  
+}
 
-  
-  .intro{
+@media (max-width:660px) {
+  .img_wrapper_container{
     width: 100%;
-    
   }
-  .intro_box{
-    width: 100%;
-    padding-top: 94px;
-  }
-  .intro_card{
-    position: absolute;
-    width: 100%;
-    height: 400px;
-    background: rgb(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .intro_title{
-    color: white;
-    font-size: 40px;
-    font-family: "Inter", sans-serif;
-  }
-  .intro_link{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-family: "Inter", sans-serif;
-  }
-  .intro_box img{
-    width: 100%;
-    object-fit: cover;
-    height: 400px;
-  }
-  @media (max-width:560px) {
-    .intro_title{
-      text-align: center;
-      color: white;
-      font-size: 30px;
-      font-family: "Inter", sans-serif;
-    }
-  }
-
-
-
-
-  .destination{
-    padding-top: 100px;
-    margin-bottom: 100px;
-  }
-
-  .destination_box{
-    display: flex;
-    column-gap: 2%;
-    flex-wrap: wrap;
-  }
-  .destination_card_img1{
-    display: flex;
-    /* justify-content: center; */
-    column-gap: 2.7%;
-    flex-wrap: wrap;
-    row-gap: 29px;
-  }
-  
-
-  .img_wrapper_container2{
-    width: 31.5%;
-  }
-
-  .img_wrapper{
-    position: relative;
-    overflow: hidden;
-  }
-  .img_wrapper img{
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 10px;
-    display: flex;
-    flex-shrink: 0;
-    background: linear-gradient(180deg, #1E2022 0%, rgba(0, 0, 0, 0.00) 50%);
-  }
-  .img_text1{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 50%; /* Gradientni faqat yuqori 50% qismiga qo'llash */
-    background: linear-gradient(180deg, rgba(30, 32, 34, 0.7) 0%, transparent 100%);
-    border-radius: 10px 10px 0 0; /* Gradient uchun yuqori burchaklarni yumaloqlashtirish */
-    
-  }
-  .img_text1 p{
-    color: white;
-    font-size: 21px;
-    font-family: "Inter", sans-serif;
-    padding: 20px;
-    font-weight: 500;
-    line-height: 21.08px;
-  }
-  .border{
-    border-bottom: 1px solid white;
-    width: 50px;
-    margin-left: 20px;
-  }
-  
-  @media (max-width:980px) {
-    .destination_card_img1{
-      display: flex;
-      column-gap: 2%;
-      flex-wrap: wrap;
-      row-gap: 17px;
-    }
-    .img_wrapper_container1{
-      width: 49%;
-    }
-    .img_wrapper_container2{
-      width: 49%;
-    }
-    .img_wrapper_container3{
-      width: 49%;
-    }
-  
-  }
-  @media (max-width:660px) {
-    .destination_card_img1{
-      display: flex;
-      column-gap: 2%;
-      flex-wrap: wrap;
-      row-gap: 17px;
-    }
-    .img_wrapper_container1{
-      width: 100%;
-    }
-    .img_wrapper_container2{
-      width: 100%;
-    }
-    .img_wrapper_container3{
-      width: 100%;
-    }
-    .destination{
-      padding-top: 70px;
-      margin-bottom: 100px;
-    }
-  
-  }
+}
 
 
