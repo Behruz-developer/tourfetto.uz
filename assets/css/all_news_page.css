@@ -26,6 +26,7 @@ color: #174581;
 .new_card{
   flex: 0 0 30%;
   margin-right: 0%;
+  padding: 0;
 }
 
 .new_card_text3{
@@ -39,6 +40,11 @@ color: #174581;
   font-size: 35px;
   
 }
+@media (max-width:980px) {
+  .menu ul li a{
+    color: white;
+    }
+  }
 
 @media (max-width:1250px) {
 .new_card{

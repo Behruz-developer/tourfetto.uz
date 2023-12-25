@@ -23,7 +23,12 @@ color: #174581;
 .fa{
   color: #174581;
 }
-
+@media (max-width:980px) {
+  .menu ul li a{
+    color: white;
+    }
+  }
+  
 .about{
     width: 100%;
     padding-top: 150px;

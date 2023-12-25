@@ -126,6 +126,9 @@ nav.scrolled .nav_tel{
 display: flex;
 gap: 20px;
 }
+.close_btn{
+  color: white;
+}
 
 @media (max-width:480px) {
   .container{
@@ -467,14 +470,14 @@ gap: 20px;
   /* Text Styles */	
 
   .home-carousel-text {
-
+    font-family: "Montserrat", sans-serif;
     position: absolute;
     bottom: 50%;
     color:  white;
     font-size: 75px;
     line-height: 1em;
     font-weight: 700;
-    
+
   }
   
   .home-carousel-text .text-dynamic > div {
@@ -524,11 +527,8 @@ gap: 20px;
   }
     .home-carousel-text {
 
-        position: absolute;
-        color:  white;
-        font-size: 40px;
-        line-height: 1em;
-        font-weight: 700
+        font-size: 30px;
+
       }
       .home-carousel-text .text-dynamic > div {
         display: flex;
@@ -549,12 +549,8 @@ gap: 20px;
       height: 100%; /* Bu yerda slayderingizning balandligini sozlang */
   }
     .home-carousel-text {
+        font-size: 25px;
 
-        position: absolute;
-        color:  white;
-        font-size: 30px;
-        line-height: 1em;
-        font-weight: 700
       }
       .home-carousel-text .text-dynamic > div {
         display: flex;
@@ -1715,7 +1711,7 @@ gap: 20px;
     /* text-align: center; */
     width: 80%;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     line-height: 150%;

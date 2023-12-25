@@ -128,7 +128,11 @@ body{
     background: #F7FAFF;
   }
 }
-
+@media (max-width:980px) {
+  .menu ul li a{
+    color: white;
+    }
+  }
 
 
 
