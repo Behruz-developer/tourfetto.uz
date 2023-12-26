@@ -91,7 +91,7 @@
     <section class="about" id="about">
         <div class="container">
             <div class="about_box">
-                <div class="about_card_vidio">
+                <div class="about_card_vidio" onclick="openNav('myModal', 'myVideo5')">
                     <a href="#!"> <i class="fas fa-play-circle " id="myBtn"></i></a>
                     <img src="assets/image/img_slider2.jpg" alt="">
                 </div>
@@ -103,8 +103,8 @@
             </div>
         </div>
         <div id="myModal" class="modal">
-            <div class="modal-content">
-                <div class="video-container">
+            <div class="modal-content" onclick="closeNav('myModal', 'myVideo5')">
+                <div class="video-container" >
                     <span class="close">&times;</span>
                     <video class="about_vidio" id="myVideo5" controls>
                         <source src="assets/image/abut_vidio.mp4" type="video/mp4">
