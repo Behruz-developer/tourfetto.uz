@@ -1762,7 +1762,18 @@ gap: 20px;
   font-size: 40px;
   font-family: "Inter", sans-serif;
 }
+.intro_link_card{
+  margin-top: 10px;
+  display: flex;
+  column-gap: 8px;
+}
 .intro_link{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+.intro_link2{
   text-decoration: none;
   color: white;
   font-size: 18px;

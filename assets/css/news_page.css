@@ -5,6 +5,9 @@ body{
 .fa{
   color: #174581;
 }
+.intro_link2{
+  font-weight: 700;
+}
 .new_description{
   width: 100%;
   padding-top: 100px;

@@ -28,7 +28,9 @@ color: #174581;
     color: white;
     }
   }
-  
+  .intro_link2{
+    font-weight: 800;
+  }
 .about{
     width: 100%;
     padding-top: 150px;
