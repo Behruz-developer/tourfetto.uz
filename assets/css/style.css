@@ -571,17 +571,18 @@ gap: 20px;
   max-width: 100%;
 }
 .about_card_vidio{
-  /* width: 100%; */
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .fas{
   position: absolute;
   font-size: 50px;
   color: white;
-  text-align: center;
-  left: 49%;
+  display: flex;
+  cursor: pointer;
 }
 .about_card_vidio img{
   width: 100%;
