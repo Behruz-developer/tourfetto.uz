@@ -123,8 +123,8 @@ nav.scrolled .nav_tel{
   column-gap: 25px;
 }
 .language_container2{
-display: flex;
-gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 .close_btn{
   color: white;
